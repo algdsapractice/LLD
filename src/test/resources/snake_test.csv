@@ -1,0 +1,7 @@
+position,expected size
+"R",0
+"D",0
+"R",1
+"U",1
+"L",2
+"U",-1
