@@ -1,5 +1,8 @@
 package com.practice.snake;
 
+import com.practice.SystemDesign.snake.Food;
+import com.practice.SystemDesign.snake.Grid;
+import com.practice.SystemDesign.snake.SnakeGame;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
