@@ -1,8 +1,11 @@
 package company.coursera;
 
+import lombok.extern.slf4j.Slf4j;
+
 import java.util.*;
 import java.util.stream.Collectors;
 
+@Slf4j
 public class FindCandidate {
 
     private static  String findPopularCandidate(Map<List<String>, Integer> ballots) {
@@ -16,7 +19,7 @@ public class FindCandidate {
        String candidate =
                voteCount.entrySet().stream().sorted(Map.Entry.comparingByValue(Comparator.reverseOrder())).limit(1)
                        .map(m->m.getKey()).collect(Collectors.toList()).get(0);
-
+log.info("Candidate found   "+candidate);
 //       String popularWinner = null;
 //        int maxVotes = -1;
 //
