@@ -1,4 +1,4 @@
-package com.practice.SystemDesign;
+package com.practice.SystemDesign.LRUCache;
 
 import java.util.Deque;
 import java.util.HashMap;
