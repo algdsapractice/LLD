@@ -1,9 +1,9 @@
-package com.practice.SystemDesign.snakegame.state;
+package com.practice.SystemDesign.snakegameOnlyDesign.state;
 
-import com.practice.SystemDesign.snakegame.rules.GameState;
-import com.practice.SystemDesign.snakegame.rules.FoodObserver;
-import com.practice.SystemDesign.snakegame.Snake;
-import com.practice.SystemDesign.snakegame.rules.GameOverObserver;
+import com.practice.SystemDesign.snakegameOnlyDesign.rules.GameState;
+import com.practice.SystemDesign.snakegameOnlyDesign.rules.FoodObserver;
+import com.practice.SystemDesign.snakegameOnlyDesign.Snake;
+import com.practice.SystemDesign.snakegameOnlyDesign.rules.GameOverObserver;
 
 import java.util.*;
 

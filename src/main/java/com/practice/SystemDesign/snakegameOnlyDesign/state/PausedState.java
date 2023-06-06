@@ -1,6 +1,6 @@
-package com.practice.SystemDesign.snakegame.state;
+package com.practice.SystemDesign.snakegameOnlyDesign.state;
 
-import com.practice.SystemDesign.snakegame.rules.GameState;
+import com.practice.SystemDesign.snakegameOnlyDesign.rules.GameState;
 
 public class PausedState implements GameState {
     private final GameState previousState;

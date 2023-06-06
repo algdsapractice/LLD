@@ -1,4 +1,4 @@
-package com.practice.SystemDesign.snakegame;
+package com.practice.SystemDesign.snakegameOnlyDesign;
 
 import java.util.Arrays;
 import java.util.Deque;

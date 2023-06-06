@@ -1,6 +1,6 @@
-package com.practice.SystemDesign.snakegame.impl;
+package com.practice.SystemDesign.snakegameOnlyDesign.impl;
 
-import com.practice.SystemDesign.snakegame.rules.GameObserver;
+import com.practice.SystemDesign.snakegameOnlyDesign.rules.GameObserver;
 
 public class SnakeGameObserver implements GameObserver {
     @Override

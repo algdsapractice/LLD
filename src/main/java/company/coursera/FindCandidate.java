@@ -5,6 +5,22 @@ import lombok.extern.slf4j.Slf4j;
 import java.util.*;
 import java.util.stream.Collectors;
 
+/*
+Q: Given a list of ballots consisting of votes and all the candidates grouped together as map where each ballot shows the candidate getting those many votes in that specific position -
+
+Find candidate with "popular vote" - this is the candidate having most number of votes from the electorate's as their first choice
+Find "ranked choice" winner. This is calculated as follows -
+If there is a candidate who has more than half first choice votes, then he is the clear winner.
+If there are multiple candidates having same number of first choice votes, we remove the candidate with least number of first choice votes, recalculate the choice votes and thereby return the candidate with most first place votes; so on until we either find a candidate with clear majority ( > 50% votes) or if there is just a single candidate remaining.
+Eg: {([A, B, C] -> 4), ([B, C, A] -> 3), ([C, B, A] -> 2)}.
+This means that candidate A got 4 votes as the electorate's first choice, candidate B got 4 votes as electorate's 2nd choice, candidate C got 4 votes as electorate's third choice. Continuing further, candidate B got 3 votes as electorate's first choice, candidate C got 3 votes as electorate's 2nd choice and candidate A got 3 votes as electorate's third choice. And so on.
+
+Solution:
+
+Popular winner - Candiate A is the popular winner having received the most number of votes as the electorate's first choice.
+Ranked winner - In this case, although candidate A has got most votes as the electorate's first choice, it is not the clear majority ( 4 != 50% of total of 9 ballots). So we remove the votes for the candidate with the least number of first choice votes i.e. C in this case. Now we are left with - {([A, B] -> 4), ([B, A] -> 3), ([B, A] -> 2)} giving us the winner as candidate B who now has 5 votes as the electorate's first choice.
+ */
+
 @Slf4j
 public class FindCandidate {
 

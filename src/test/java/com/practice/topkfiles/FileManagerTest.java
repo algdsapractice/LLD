@@ -1,7 +1,7 @@
 package com.practice.topkfiles;
 
-import com.practice.SystemDesign.topkfiles.Collection;
-import com.practice.SystemDesign.topkfiles.FileManager;
+import com.practice.SystemDesign.topkfiles.firstApproach.Collection;
+import com.practice.SystemDesign.topkfiles.firstApproach.FileManager;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

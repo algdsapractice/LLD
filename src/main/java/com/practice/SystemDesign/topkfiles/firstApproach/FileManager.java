@@ -1,4 +1,4 @@
-package com.practice.SystemDesign.topkfiles;
+package com.practice.SystemDesign.topkfiles.firstApproach;
 
 import java.util.*;
 import java.util.stream.Collectors;

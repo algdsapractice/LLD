@@ -1,9 +1,9 @@
-package com.practice.SystemDesign.snakegame;
+package com.practice.SystemDesign.snakegameOnlyDesign;
 
-import com.practice.SystemDesign.snakegame.impl.SnakeGameObserver;
-import com.practice.SystemDesign.snakegame.rules.GameObserver;
-import com.practice.SystemDesign.snakegame.rules.GameState;
-import com.practice.SystemDesign.snakegame.state.PlayingState;
+import com.practice.SystemDesign.snakegameOnlyDesign.impl.SnakeGameObserver;
+import com.practice.SystemDesign.snakegameOnlyDesign.rules.GameObserver;
+import com.practice.SystemDesign.snakegameOnlyDesign.rules.GameState;
+import com.practice.SystemDesign.snakegameOnlyDesign.state.PlayingState;
 
 public class SnakeGame {
     private final GameState playingState;
