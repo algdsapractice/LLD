@@ -5,20 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a198de21-f3d3-4e3c-887c-8e288011fd58" name="Changes" comment="Added Atlassian Interview Question">
-      <change afterPath="$PROJECT_DIR$/src/main/java/company/coursera/FindCandidate2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/company/coursera/StringMatcher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/company/coursera/ZeroOrOneWildcardMatcher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/main.1.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/main.1.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/main.2.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/main.2.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/main.3.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/main.3.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/main.4.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/main.4.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/main.5.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/main.5.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/main.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/main.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/company/coursera/FindCandidate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/company/coursera/FindCandidate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/company/coursera/WildCharcter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/company/coursera/WildCharcter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,20 +81,7 @@
       <recent name="com.practice.snake" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ZeroOrOneWildcardMatcher">
-    <configuration name="FindCandidate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="company.coursera.FindCandidate" />
-      <module name="LLD" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="company.coursera.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.ZeroOrManyWildcardMatcherWithSubstring">
     <configuration name="FindCandidate2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="company.coursera.FindCandidate2" />
       <module name="LLD" />
@@ -147,6 +121,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ZeroOrManyWildcardMatcherWithSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="company.coursera.ZeroOrManyWildcardMatcherWithSubstring" />
+      <module name="LLD" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="company.coursera.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ZeroOrOneWildcardMatcher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="company.coursera.ZeroOrOneWildcardMatcher" />
       <module name="LLD" />
@@ -162,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ZeroOrManyWildcardMatcherWithSubstring" />
         <item itemvalue="Application.ZeroOrOneWildcardMatcher" />
         <item itemvalue="Application.StringMatcher" />
         <item itemvalue="Application.WildCharcter" />
         <item itemvalue="Application.FindCandidate2" />
-        <item itemvalue="Application.FindCandidate" />
       </list>
     </recent_temporary>
   </component>
@@ -200,7 +187,15 @@
       <option name="project" value="LOCAL" />
       <updated>1685942424948</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added Atlassian Interview Question">
+      <option name="closed" value="true" />
+      <created>1726515849416</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1726515849416</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
