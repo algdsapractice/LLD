@@ -1,27 +1,33 @@
-2023.06.03 23:55:40.760 [INFO] com.practice.snake.SnakeGame: food position: [1, 2]
-2023.06.03 23:55:40.762 [INFO] com.practice.snake.Snake: Moving snake in direction: R
-2023.06.03 23:55:40.765 [INFO] com.practice.snake.Snake: Valid move: Pos(x=0, y=1)
-2023.06.03 23:55:40.766 [INFO] com.practice.snake.Snake: Snake did not find food
-2023.06.03 23:55:40.766 [INFO] com.practice.snake.Snake: Snake moved to position: Pos(x=0, y=1)
-2023.06.03 23:55:40.769 [INFO] com.practice.snake.SnakeGame: food position: [1, 2]
-2023.06.03 23:55:40.769 [INFO] com.practice.snake.Snake: Moving snake in direction: D
-2023.06.03 23:55:40.770 [INFO] com.practice.snake.Snake: Valid move: Pos(x=1, y=1)
-2023.06.03 23:55:40.770 [INFO] com.practice.snake.Snake: Snake did not find food
-2023.06.03 23:55:40.770 [INFO] com.practice.snake.Snake: Snake moved to position: Pos(x=1, y=1)
-2023.06.03 23:55:40.770 [INFO] com.practice.snake.SnakeGame: food position: [1, 2]
-2023.06.03 23:55:40.770 [INFO] com.practice.snake.Snake: Moving snake in direction: R
-2023.06.03 23:55:40.771 [INFO] com.practice.snake.Snake: Valid move: Pos(x=1, y=2)
-2023.06.03 23:55:40.771 [INFO] com.practice.snake.Snake: Snake  after eating: food 1 ,  size is : 1
-2023.06.03 23:55:40.771 [INFO] com.practice.snake.Snake: ssss 2  0
-2023.06.03 23:55:40.771 [INFO] com.practice.snake.Snake: Retrieved Food 0 , at position [1, 2]
-2023.06.03 23:55:40.772 [INFO] com.practice.snake.Snake: Snake moved to position: Pos(x=1, y=2)
-2023.06.03 23:55:40.772 [INFO] com.practice.snake.SnakeGame: food position: [1, 2]
-2023.06.03 23:55:40.772 [INFO] com.practice.snake.Snake: Moving snake in direction: U
-2023.06.03 23:55:40.772 [INFO] com.practice.snake.Snake: Valid move: Pos(x=0, y=2)
-2023.06.03 23:55:40.772 [INFO] com.practice.snake.Snake: Snake did not find food
-2023.06.03 23:55:40.773 [INFO] com.practice.snake.Snake: Snake moved to position: Pos(x=0, y=2)
-2023.06.03 23:55:40.773 [INFO] com.practice.snake.SnakeGame: food position: [1, 2]
-2023.06.03 23:55:40.773 [INFO] com.practice.snake.Snake: Moving snake in direction: L
-2023.06.03 23:55:40.773 [INFO] com.practice.snake.Snake: Valid move: Pos(x=0, y=1)
-2023.06.03 23:55:40.773 [INFO] com.practice.snake.Snake: Snake did not find food
-2023.06.03 23:55:40.774 [INFO] com.practice.snake.Snake: Snake moved to position: Pos(x=0, y=1)
+2023.06.05 00:09:23.192 [INFO] com.practice.snake.SnakeGame: food position: [1, 2]
+2023.06.05 00:09:23.195 [INFO] com.practice.snake.Snake: Moving snake in direction: R
+2023.06.05 00:09:23.198 [INFO] com.practice.snake.Snake: Valid move: Pos(x=0, y=1)
+2023.06.05 00:09:23.199 [INFO] com.practice.snake.Snake: Snake did not find food
+2023.06.05 00:09:23.199 [INFO] com.practice.snake.Snake: Snake moved to position: Pos(x=0, y=1)
+2023.06.05 00:09:23.200 [INFO] com.practice.snake.SnakeGame: food position: [1, 2]
+2023.06.05 00:09:23.200 [INFO] com.practice.snake.Snake: Moving snake in direction: D
+2023.06.05 00:09:23.200 [INFO] com.practice.snake.Snake: Valid move: Pos(x=1, y=1)
+2023.06.05 00:09:23.200 [INFO] com.practice.snake.Snake: Snake did not find food
+2023.06.05 00:09:23.201 [INFO] com.practice.snake.Snake: Snake moved to position: Pos(x=1, y=1)
+2023.06.05 00:09:23.201 [INFO] com.practice.snake.SnakeGame: food position: [1, 2]
+2023.06.05 00:09:23.201 [INFO] com.practice.snake.Snake: Moving snake in direction: R
+2023.06.05 00:09:23.201 [INFO] com.practice.snake.Snake: Valid move: Pos(x=1, y=2)
+2023.06.05 00:09:23.202 [INFO] com.practice.snake.Snake: Snake  after eating: food 1 ,  size is : 1
+2023.06.05 00:09:23.202 [INFO] com.practice.snake.Snake: ssss 2  0
+2023.06.05 00:09:23.202 [INFO] com.practice.snake.Snake: Retrieved Food 1 , at position [1, 2]
+2023.06.05 00:09:23.202 [INFO] com.practice.snake.Snake: Snake moved to position: Pos(x=1, y=2)
+2023.06.05 00:09:23.203 [INFO] com.practice.snake.SnakeGame: food position: [0, 1]
+2023.06.05 00:09:23.203 [INFO] com.practice.snake.Snake: Moving snake in direction: U
+2023.06.05 00:09:23.203 [INFO] com.practice.snake.Snake: Valid move: Pos(x=0, y=2)
+2023.06.05 00:09:23.203 [INFO] com.practice.snake.Snake: Snake did not find food
+2023.06.05 00:09:23.204 [INFO] com.practice.snake.Snake: Snake moved to position: Pos(x=0, y=2)
+2023.06.05 00:09:23.204 [INFO] com.practice.snake.SnakeGame: food position: [0, 1]
+2023.06.05 00:09:23.204 [INFO] com.practice.snake.Snake: Moving snake in direction: L
+2023.06.05 00:09:23.204 [INFO] com.practice.snake.Snake: Valid move: Pos(x=0, y=1)
+2023.06.05 00:09:23.205 [INFO] com.practice.snake.Snake: Snake  after eating: food 2 ,  size is : 2
+2023.06.05 00:09:23.205 [INFO] com.practice.snake.Snake: ssss 2  1
+2023.06.05 00:09:23.205 [INFO] com.practice.snake.Snake: Retrieved Food 2 , at position [0, 1]
+2023.06.05 00:09:23.205 [INFO] com.practice.snake.Snake: Snake moved to position: Pos(x=0, y=1)
+2023.06.05 00:09:23.206 [INFO] com.practice.snake.SnakeGame: food position: null
+2023.06.05 00:09:23.206 [INFO] com.practice.snake.Snake: Moving snake in direction: U
+2023.06.05 00:09:23.206 [WARN] com.practice.snake.Snake: Invalid path: Pos(x=-1, y=1)
+2023.06.05 00:09:23.206 [INFO] com.practice.snake.Snake: Quit the game

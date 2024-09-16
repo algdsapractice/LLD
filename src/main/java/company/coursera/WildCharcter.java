@@ -6,22 +6,22 @@ package company.coursera;
 public class WildCharcter {
 
     public static boolean wildcardMatch(String text, String query){
-        char[] textCharArr = text.toCharArray();
-        char[] qCharArr = query.toCharArray();
         boolean result = false;
 
-        for (int i = 0; i < textCharArr.length; i++) {
+
+        for(int i =0 ; i< text.length();i++){
             int j;
-            for (j = 0; j < qCharArr.length && i + j < textCharArr.length; j++) {
-                if (qCharArr[j] != '.' && qCharArr[j] != textCharArr[i + j]) {
+            for(j=0; j<query.length() && i+j<text.length();j++){
+                if(query.charAt(j)!='.' && text.charAt(i+j)!= query.charAt(j)){
                     break;
                 }
             }
-            if (j == qCharArr.length) {
-                result = true;
+            if (j==query.length()){
+                result=true;
                 break;
             }
         }
+
         return result;
     }
 

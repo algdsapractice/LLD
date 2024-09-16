@@ -116,7 +116,7 @@ log.info("Candidate found   "+candidate);
         ballots.put(Arrays.asList("A", "B", "C"), 4);
         ballots.put(Arrays.asList("B", "C", "A"), 3);
         ballots.put(Arrays.asList("C", "B", "A"), 2);
-        ballots.put(Arrays.asList("B"), 2);
+//        ballots.put(Arrays.asList("B"), 2);
 
 
         String popularWinner = findPopularCandidate(ballots);
