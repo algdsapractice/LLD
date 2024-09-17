@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a198de21-f3d3-4e3c-887c-8e288011fd58" name="Changes" comment="Added Coursera few more types">
-      <change afterPath="$PROJECT_DIR$/src/main/java/company/coursera/RegexParser.java" afterDir="false" />
+    <list default="true" id="a198de21-f3d3-4e3c-887c-8e288011fd58" name="Changes" comment="Added the Regex Pattern Match">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/company/coursera/ZeroOrOneWildcardMatcherWithSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/company/coursera/ZeroOrOneWildcardMatcherWithSubstring.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/company/coursera/FindCandidate2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/company/coursera/FindCandidate2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -221,7 +220,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726517128005</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Added the Regex Pattern Match">
+      <option name="closed" value="true" />
+      <created>1726588995380</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1726588995380</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -229,7 +236,8 @@
     <MESSAGE value="Top N Collection" />
     <MESSAGE value="Added Atlassian Interview Question" />
     <MESSAGE value="Added Coursera few more types" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Coursera few more types" />
+    <MESSAGE value="Added the Regex Pattern Match" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added the Regex Pattern Match" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
