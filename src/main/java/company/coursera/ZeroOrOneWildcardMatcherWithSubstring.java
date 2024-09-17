@@ -69,7 +69,7 @@ public class ZeroOrOneWildcardMatcherWithSubstring {
 
     // Example usage
     public static void main(String[] args) {
-        ZeroOrOneWildcardMatcher matcher = new ZeroOrOneWildcardMatcher();
+        ZeroOrOneWildcardMatcherWithSubstring matcher = new ZeroOrOneWildcardMatcherWithSubstring();
 
         // Test cases
         System.out.println(matcher.isMatch("hello world", "he*llo")); // Expected: true
@@ -80,7 +80,7 @@ public class ZeroOrOneWildcardMatcherWithSubstring {
         System.out.println(matcher.isMatch("abc", "a*b*c*"));         // Expected: true
         System.out.println(matcher.isMatch("hello world", "lo wo"));  // Expected: true
         System.out.println(matcher.isMatch("hello world", "o w"));    // Expected: true
-        System.out.println(matcher.isMatch("hello", "he*o"));         // Expected: true
+        System.out.println(matcher.isMatch("hello", "he*o"));         // Expected: false
         System.out.println(matcher.isMatch("hello world", "ld"));     // Expected: true
     }
 }
