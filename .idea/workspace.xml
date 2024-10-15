@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a198de21-f3d3-4e3c-887c-8e288011fd58" name="Changes" comment="Added the Regex Pattern Match">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/company/coursera/FindCandidate2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/company/coursera/FindCandidate2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/company/coursera/TextJustification.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/company/coursera/TextJustification.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +24,10 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="816cf329-7bea-4e4b-864c-06c1051c043b" />
   </component>
   <component name="MavenRunner">
     <option name="skipTests" value="true" />
@@ -82,7 +86,7 @@
       <recent name="com.practice.snake" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RegexParser">
+  <component name="RunManager" selected="Application.TextJustification">
     <configuration name="RegexParser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="company.coursera.RegexParser" />
       <module name="LLD" />
@@ -97,8 +101,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringMatcher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="company.coursera.StringMatcher" />
+    <configuration name="TextJustification" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="company.coursera.TextJustification" />
       <module name="LLD" />
       <extension name="coverage">
         <pattern>
@@ -150,19 +154,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.TextJustification" />
       <item itemvalue="Application.RegexParser" />
-      <item itemvalue="Application.StringMatcher" />
       <item itemvalue="Application.ZeroOrManyWildcardMatcherWithSubstring" />
       <item itemvalue="Application.ZeroOrOneWildcardMatcher" />
       <item itemvalue="Application.ZeroOrOneWildcardMatcherWithSubstring" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TextJustification" />
         <item itemvalue="Application.RegexParser" />
         <item itemvalue="Application.ZeroOrOneWildcardMatcherWithSubstring" />
         <item itemvalue="Application.ZeroOrManyWildcardMatcherWithSubstring" />
         <item itemvalue="Application.ZeroOrOneWildcardMatcher" />
-        <item itemvalue="Application.StringMatcher" />
       </list>
     </recent_temporary>
   </component>
@@ -231,6 +235,17 @@
     <option name="localTasksCounter" value="8" />
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Snake Game" />
     <MESSAGE value="Top N Collection" />
@@ -259,6 +274,11 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="DataStructures.Trie$Node" memberName="children" />
+      </pinned-members>
+    </pin-to-top-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

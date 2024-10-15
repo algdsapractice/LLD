@@ -16,40 +16,36 @@ public class TextJustification {
 
     }
 
-    private static List<String> fullJustify(String[] words, int maxWidth) {
+    public static List<String> fullJustify(String[] words, int maxWidth) {
 
-        List<String> justifiedString = new ArrayList<>();
-        List<StringBuilder> currentLineWords = new ArrayList<>();
-        int sumOfLengthOfWords =0;
+        List<String> result = new ArrayList();
+        int sumOfWordsLength = 0;
+        List<StringBuilder> currentLineWords = new ArrayList();
 
         for(String word : words){
-                int newLengthOfLine= sumOfLengthOfWords+word.length()+currentLineWords.size();
 
-                if(newLengthOfLine > maxWidth){
+            int currentLineLength = word.length()+ sumOfWordsLength+currentLineWords.size();
 
-                    int extraPadding = maxWidth - (sumOfLengthOfWords+ currentLineWords.size()-1);
-                    int wordsInRoundRobinSize= Math.max(currentLineWords.size()-1,1);
+            if(currentLineLength>maxWidth){
+                int extraPadding = maxWidth- (sumOfWordsLength+currentLineWords.size()-1);
+                int roundRobinSpaces = Math.max(currentLineWords.size()-1,1);
+                for(int i=0; i<extraPadding;i++){
 
-                    for (int i =0; i<extraPadding;i++){
-                        int index = i%wordsInRoundRobinSize;
-                        currentLineWords.get(index).append(" ");
-                    }
-
-                    justifiedString.add(currentLineWords.stream().map(StringBuilder::toString).collect(Collectors.joining(" ")));
-
-                } else{
-                    currentLineWords.add( new StringBuilder(word));
-                    sumOfLengthOfWords += word.length();
+                    int index = i % roundRobinSpaces;
+                    currentLineWords.get(index).append(" ");
                 }
-
-                int extraSpace =  maxWidth - (sumOfLengthOfWords+ currentLineWords.size()-1);
-                String spaces= Stream.generate(()->" ").limit(extraSpace).collect(Collectors.joining(""));
-
-                justifiedString.add(currentLineWords.stream().map(StringBuilder::toString).collect(Collectors.joining(" "))+spaces);
-
+                result.add(currentLineWords.stream().map(StringBuilder::toString).collect(Collectors.joining(" ")));
+                sumOfWordsLength = 0;
+                currentLineWords = new ArrayList();
+            }
+            currentLineWords.add(new StringBuilder(word));
+            sumOfWordsLength +=  word.length();
         }
 
+        int extraSpaces= maxWidth- (sumOfWordsLength+currentLineWords.size()-1);
+        String spaces = Stream.generate(()-> " ").limit(extraSpaces).collect(Collectors.joining(""));
+        result.add(currentLineWords.stream().map(StringBuilder::toString).collect(Collectors.joining(" "))+spaces);
 
-        return justifiedString;
+        return result;
     }
 }
